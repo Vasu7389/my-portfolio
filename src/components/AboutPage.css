@@ -1,0 +1,33 @@
+.about-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-header {
+  font-size: 5.5rem;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.about-left {
+  width: 50%;
+  font-size: 2rem;
+}
+
+.about-right {
+  width: 40%;
+  font-weight: 400;
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about-right > p {
+  margin-bottom: 20px;
+}

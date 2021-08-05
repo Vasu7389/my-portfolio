@@ -1,0 +1,18 @@
+.navbar-container {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+.navbar-left {
+  width: 30%;
+}
+
+.navbar-right-options {
+  opacity: 0.6;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
