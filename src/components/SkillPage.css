@@ -1,18 +1,11 @@
 .skill-container {
   color: white;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .skill-header {
   font-size: 5.5rem;
-}
-
-.skill-info {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
 }
 
 .skill-left {
@@ -24,4 +17,12 @@
 .skill-right {
   width: 50%;
   font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.skill-right > p {
+  margin-top: 50px;
 }

@@ -1,0 +1,36 @@
+.education-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-header {
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.education-header > p > span {
+  opacity: 0.1;
+  font-size: 7rem;
+  font-family: initial;
+}
+
+.education-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.education-left {
+  width: 50%;
+  font-size: 2rem;
+}
+
+.education-right {
+  width: 40%;
+  font-weight: 400;
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
