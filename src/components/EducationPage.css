@@ -10,27 +10,42 @@
 }
 
 .education-header > p > span {
-  opacity: 0.1;
   font-size: 7rem;
   font-family: initial;
+  color: rgb(0 255 243);
 }
 
-.education-info {
+.education {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
+  height: 150px;
   margin-top: 50px;
+  border-bottom: 1px solid rgb(87, 86, 86);
 }
 
-.education-left {
-  width: 50%;
+.education > p:nth-child(1) {
+  color: rgb(0 255 243);
+}
+
+.education > p:nth-child(2) {
   font-size: 2rem;
 }
 
-.education-right {
-  width: 40%;
-  font-weight: 400;
-  opacity: 0.6;
+.education > p:nth-child(3) {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  width: 100%;
+}
+
+.education > p:nth-child(3) > a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+}
+
+a {
+  display: flex;
+  justify-content: center;
 }

@@ -22,6 +22,14 @@ const ProjectPage = () => {
             <a href="http://stopwatch-timer.herokuapp.com/">Tap to view</a>
           </p>
         </div>
+        <div className="project">
+          <p>Social</p>
+          <p>Messenger</p>
+          <p>
+            <span>2020</span>
+            <a href="https://whatspp-clone-964df.web.app/">Tap to view</a>
+          </p>
+        </div>
       </div>
     </div>
   );

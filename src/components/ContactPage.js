@@ -14,29 +14,29 @@ const ContactPage = () => {
           <form className="contact-form">
             <div className="contact-form-row">
               <div className="contact-form-group">
-                <label htmlFor="name">name</label>
+                <label htmlFor="name">Name</label>
                 <input type="text" name="name" id="name" />
               </div>
               <div className="contact-form-group">
-                <label htmlFor="email">e-mail</label>
-                <input type="text" name="name" id="email" />
+                <label htmlFor="email">E-mail</label>
+                <input type="email" name="email" id="email" />
               </div>
             </div>
             <div className="contact-form-group">
-              <label htmlFor="subject">subject</label>
-              <input type="text" name="name" id="subject" />
+              <label htmlFor="subject">Subject</label>
+              <input type="text" name="subject" id="subject" />
             </div>
             <div className="contact-form-group">
-              <label htmlFor="message">message</label>
+              <label htmlFor="message">Message</label>
               <textarea
                 className="contact-form-message"
                 type="text"
-                name="name"
+                name="message"
                 id="message"
               />
             </div>
             <button className="contact-form-button" type="submit">
-              send
+              Send
             </button>
           </form>
         </div>

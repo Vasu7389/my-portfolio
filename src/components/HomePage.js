@@ -16,9 +16,23 @@ const HomePage = () => {
         <div>a software developer who loves to code.</div>
       </div>
       <div className="home-page-footer">
-        <LinkedInIcon />
-        <InstagramIcon />
-        <TwitterIcon />
+        <a
+          href="//www.linkedin.com/in/vasu-awasthi-9a820b137"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedInIcon />
+        </a>
+        <a
+          href="//https://www.instagram.com/vasu.awasthi3/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <InstagramIcon />
+        </a>
+        <a href="/">
+          <TwitterIcon />
+        </a>
       </div>
     </div>
   );

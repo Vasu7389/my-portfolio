@@ -7,3 +7,21 @@
   padding: 0 25px;
   margin-bottom: 50px;
 }
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  width: 120px;
+  justify-content: center;
+}
+
+.btn-back-to-top > svg {
+  font-size: 1.2rem;
+}
