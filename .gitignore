@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+#emailJs IDs
+/src/components/ContactPage.js
+
 # testing
 /coverage
 
