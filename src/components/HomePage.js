@@ -12,8 +12,10 @@ const HomePage = () => {
         <Navbar />
       </div>
       <div className="home-page">
-        <div>Hello, I am Vasu,</div>
-        <div>a software developer.</div>
+        <div>
+          Hi<span>&#9995;</span>, <p>I am Vasu,</p>
+        </div>
+        <span>a software developer.</span>
       </div>
       <div className="home-page-footer">
         <a

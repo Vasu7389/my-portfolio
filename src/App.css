@@ -1,11 +1,13 @@
 .app-section {
-  height: 100vh;
-  padding: 0 25px;
-}
-
-.app-section-list {
+  min-height: 100vh !important;
   padding: 0 25px;
   margin-bottom: 50px;
+}
+
+.app-section-contact {
+  min-height: 100vh !important;
+  padding: 0 25px;
+  margin-bottom: 0px;
 }
 
 .btn-back-to-top {

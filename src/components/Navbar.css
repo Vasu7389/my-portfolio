@@ -1,3 +1,12 @@
+@media only screen and (max-width: 800px) {
+  .navbar-right-options {
+    display: none !important;
+  }
+  .navbar-right-menubar {
+    display: block !important;
+  }
+}
+
 .navbar-container {
   color: white;
   width: 100%;
@@ -15,4 +24,27 @@
   width: 40%;
   display: flex;
   justify-content: space-between;
+}
+
+.navbar-right-menubar {
+  display: none;
+}
+
+.navbar-menu-options {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  width: 100vw;
+  height: 85vh;
+  background-color: #121212;
+  z-index: 1;
+}
+
+.navbar-menu-options > svg {
+  font-size: 3rem;
 }

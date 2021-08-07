@@ -5,6 +5,15 @@ const SkillPage = () => {
   return (
     <div className="skill-container">
       <div className="skill-left">
+        <div className="skill-header">
+          <span>ski</span>lls
+        </div>
+        <p>
+          It is possible to fly without motors, but not without knowledge and
+          skill.
+        </p>
+      </div>
+      <div className="skill-right">
         <div id="myCanvasContainer">
           <canvas width="600" height="600" id="myCanvas"></canvas>
         </div>
@@ -96,15 +105,6 @@ const SkillPage = () => {
             </li>
           </ul>
         </div>
-      </div>
-      <div className="skill-right">
-        <div className="skill-header">
-          <span>ski</span>lls
-        </div>
-        <p>
-          It is possible to fly without motors, but not without knowledge and
-          skill.
-        </p>
       </div>
     </div>
   );

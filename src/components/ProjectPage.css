@@ -5,7 +5,7 @@
 }
 
 .project-header {
-  font-size: 5.5rem;
+  font-size: 4.8rem;
 }
 
 .project-header > span {
@@ -27,7 +27,7 @@
 }
 
 .project > p:nth-child(2) {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .project > p:nth-child(3) {

@@ -1,33 +1,45 @@
+@media only screen and (max-width: 800px) {
+  .skill-container {
+    flex-direction: column;
+  }
+  #myCanvasContainer > canvas {
+    width: 100% !important;
+    height: 40vh !important;
+  }
+  .skill-right,
+  .skill-left {
+    width: 100% !important;
+  }
+  .skill-left > p {
+    margin-bottom: 50px;
+  }
+}
+
 .skill-container {
   color: white;
   display: flex;
-  justify-content: space-between;
 }
 
 .skill-header {
-  font-size: 5.5rem;
+  font-size: 4.8rem;
+  margin-bottom: 50px;
 }
 
 .skill-header > span {
   color: #35ff7c;
 }
 
-.skill-left {
+.skill-right {
   opacity: 0.6;
   color: white;
   width: 40%;
 }
 
-.skill-right {
+.skill-left {
   width: 50%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
-}
-
-.skill-right > p {
-  margin-top: 50px;
-  text-align: end;
+  align-items: flex-start;
 }

@@ -41,13 +41,13 @@ export default function App() {
       <div className="app-section" id="skills">
         <SkillPage />
       </div>
-      <div className="app-section-list" id="projects">
+      <div className="app-section" id="projects">
         <ProjectPage />
       </div>
-      <div className="app-section-list">
+      <div className="app-section">
         <EducationPage />
       </div>
-      <div className="app-section" id="contact">
+      <div className="app-section-contact" id="contact">
         <ContactPage />
       </div>
       {showBackToTopBtn && (
