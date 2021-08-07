@@ -4,25 +4,29 @@ import "./AboutPage.css";
 const AboutPage = () => {
   return (
     <div className="about-container">
-      <div className="about-header">about</div>
+      <div className="about-header">
+        ab<span>out</span>
+      </div>
       <div className="about-info">
         <div className="about-left">
-          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur
+          I love to create something simple and clean using reactjs with html
+          and css.
         </div>
         <div className="about-right">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting.
+            I'm Vasu Awasthi. I am a <span>Software Developer</span> at Siemens
+            Healthcare in Bangalore. I have done Post Graduate Diploma in
+            Advanced Computing from <span>CDAC</span>, Bangalore.
           </p>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            I specialize in efficient <span>React</span> apps and
+            <span> CSS</span> & <span>HTML</span> that just work across all
+            platforms and browsers. I care deeply about building interfaces that
+            are usable and pleasant for the most number of people possible.
+          </p>
+          <p>
+            Right now, I’m excited about improving skill on writing automated
+            <span> test cases</span> and becoming a <span>React senior</span>.
           </p>
         </div>
       </div>

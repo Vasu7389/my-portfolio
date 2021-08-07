@@ -1,3 +1,7 @@
+:root {
+  --section-color: #00fff3;
+}
+
 .about-container {
   color: white;
   display: flex;
@@ -6,6 +10,10 @@
 
 .about-header {
   font-size: 5.5rem;
+}
+
+.about-header > span {
+  color: var(--section-color);
 }
 
 .about-info {
@@ -22,12 +30,16 @@
 .about-right {
   width: 40%;
   font-weight: 400;
-  opacity: 0.6;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .about-right > p {
   margin-bottom: 20px;
+}
+
+.about-right > p > span {
+  color: var(--section-color);
 }

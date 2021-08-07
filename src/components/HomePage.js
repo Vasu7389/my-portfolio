@@ -13,7 +13,7 @@ const HomePage = () => {
       </div>
       <div className="home-page">
         <div>Hello, I am Vasu,</div>
-        <div>a software developer who loves to code.</div>
+        <div>a software developer.</div>
       </div>
       <div className="home-page-footer">
         <a

@@ -8,6 +8,10 @@
   font-size: 5.5rem;
 }
 
+.skill-header > span {
+  color: #35ff7c;
+}
+
 .skill-left {
   opacity: 0.6;
   color: white;
@@ -25,4 +29,5 @@
 
 .skill-right > p {
   margin-top: 50px;
+  text-align: end;
 }

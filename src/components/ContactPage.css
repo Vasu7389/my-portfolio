@@ -16,7 +16,12 @@
 
 .contact-left {
   width: 40%;
-  font-size: 2rem;
+  font-size: 1.1rem;
+}
+
+.contact-left > span {
+  opacity: 0.6;
+  font-style: italic;
 }
 
 .contact-right {
@@ -33,6 +38,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  font-weight: 500;
 }
 
 .contact-form-row {
@@ -45,7 +51,7 @@
 }
 
 .contact-form-message {
-  height: 180px;
+  height: 150px;
 }
 
 .contact-form-group {
@@ -54,5 +60,7 @@
 }
 
 .contact-form-button {
-  width: 90px;
+  width: 70px;
+  height: 30px;
+  font-weight: 500;
 }

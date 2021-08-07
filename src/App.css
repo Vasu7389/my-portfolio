@@ -16,10 +16,11 @@
   color: black;
   border-radius: 5px;
   display: flex;
-  height: 35px;
+  height: 30px;
   align-items: center;
   width: 120px;
   justify-content: center;
+  font-weight: 500;
 }
 
 .btn-back-to-top > svg {

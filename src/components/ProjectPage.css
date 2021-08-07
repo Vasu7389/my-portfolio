@@ -8,6 +8,10 @@
   font-size: 5.5rem;
 }
 
+.project-header > span {
+  color: rgb(245, 67, 67);
+}
+
 .project {
   display: flex;
   flex-direction: column;
