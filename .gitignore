@@ -5,8 +5,8 @@
 /.pnp
 .pnp.js
 
-#emailJs IDs
-/src/components/ContactPage.js
+#enviroment vars
+.env
 
 # testing
 /coverage
