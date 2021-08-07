@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Vasu7389/my-portfolio/static/css/main.c6933aee.chunk.css",
+    "main.js": "/Vasu7389/my-portfolio/static/js/main.982cd16a.chunk.js",
+    "main.js.map": "/Vasu7389/my-portfolio/static/js/main.982cd16a.chunk.js.map",
+    "runtime-main.js": "/Vasu7389/my-portfolio/static/js/runtime-main.d50918d9.js",
+    "runtime-main.js.map": "/Vasu7389/my-portfolio/static/js/runtime-main.d50918d9.js.map",
+    "static/css/2.68b64559.chunk.css": "/Vasu7389/my-portfolio/static/css/2.68b64559.chunk.css",
+    "static/js/2.c65e7b41.chunk.js": "/Vasu7389/my-portfolio/static/js/2.c65e7b41.chunk.js",
+    "static/js/2.c65e7b41.chunk.js.map": "/Vasu7389/my-portfolio/static/js/2.c65e7b41.chunk.js.map",
+    "index.html": "/Vasu7389/my-portfolio/index.html",
+    "static/css/2.68b64559.chunk.css.map": "/Vasu7389/my-portfolio/static/css/2.68b64559.chunk.css.map",
+    "static/css/main.c6933aee.chunk.css.map": "/Vasu7389/my-portfolio/static/css/main.c6933aee.chunk.css.map",
+    "static/js/2.c65e7b41.chunk.js.LICENSE.txt": "/Vasu7389/my-portfolio/static/js/2.c65e7b41.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d50918d9.js",
+    "static/css/2.68b64559.chunk.css",
+    "static/js/2.c65e7b41.chunk.js",
+    "static/css/main.c6933aee.chunk.css",
+    "static/js/main.982cd16a.chunk.js"
+  ]
+}
