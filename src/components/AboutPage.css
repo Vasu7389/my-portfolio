@@ -2,10 +2,12 @@
   .about-info {
     flex-direction: column;
   }
+
   .about-left,
   .about-right {
     width: 100% !important;
   }
+
   .about-left {
     margin-bottom: 50px;
   }
