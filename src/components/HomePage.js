@@ -14,7 +14,7 @@ const HomePage = () => {
       </div>
       <div className="home-page">
         <div>
-          hey,
+          <span>hey,</span>
           <p>
             this is<span> Vasu</span>,
           </p>
