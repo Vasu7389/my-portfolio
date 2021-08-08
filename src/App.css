@@ -1,13 +1,31 @@
+:root {
+  --heading-margin: 80px;
+  --section-color: #00ffff;
+  --section-heading-size: 5rem;
+  --section-heading-size-mobile: 3.5rem;
+  --section-sub-heading-size: 1.5rem;
+  --section-grey-color: rgba(255, 255, 255, 0.6);
+  --heading-letter-spacing: -3px;
+}
+
+@media only screen and (max-width: 800px) {
+  .btn-back-to-top > span {
+    display: none;
+  }
+
+  .btn-back-to-top {
+    width: 30px !important;
+  }
+}
+
 .app-section {
-  min-height: 100vh !important;
   padding: 0 25px;
-  margin-bottom: 50px;
+  margin-bottom: var(--heading-margin);
 }
 
 .app-section-contact {
   min-height: 100vh !important;
   padding: 0 25px;
-  margin-bottom: 0px;
 }
 
 .btn-back-to-top {

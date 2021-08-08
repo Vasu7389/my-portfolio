@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import "./HomePage.css";
 import Navbar from "./Navbar";
 
@@ -13,20 +14,30 @@ const HomePage = () => {
       </div>
       <div className="home-page">
         <div>
-          Hi<span>&#9995;</span>, <p>I am Vasu,</p>
+          hey,
+          <p>
+            this is<span> Vasu</span>,
+          </p>
         </div>
-        <span>a software developer.</span>
+        <span>a web developer.</span>
       </div>
       <div className="home-page-footer">
         <a
-          href="//www.linkedin.com/in/vasu-awasthi-9a820b137"
+          href="https://github.com/Vasu7389"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHubIcon />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/vasu-awasthi-9a820b137"
           target="_blank"
           rel="noopener noreferrer"
         >
           <LinkedInIcon />
         </a>
         <a
-          href="//https://www.instagram.com/vasu.awasthi3/"
+          href="https://www.instagram.com/vasu.awasthi3/"
           target="_blank"
           rel="noopener noreferrer"
         >

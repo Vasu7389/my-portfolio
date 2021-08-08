@@ -1,3 +1,12 @@
+@media only screen and (max-width: 800px) {
+  .project-header {
+    font-size: var(--section-heading-size-mobile) !important;
+  }
+  .project-header > p > span {
+    font-size: 4.5rem !important;
+  }
+}
+
 .project-container {
   color: white;
   display: flex;
@@ -5,11 +14,12 @@
 }
 
 .project-header {
-  font-size: 4.8rem;
+  font-size: var(--section-heading-size);
+  letter-spacing: var(--heading-letter-spacing);
 }
 
 .project-header > span {
-  color: rgb(245, 67, 67);
+  color: var(--section-color);
 }
 
 .project {
@@ -17,29 +27,31 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 150px;
-  margin-top: 50px;
-  border-bottom: 1px solid rgb(87, 86, 86);
+  height: 110px;
+  margin-top: 30px;
 }
 
 .project > p:nth-child(1) {
-  color: rgb(245, 67, 67);
+  font-size: 0.9rem;
+  color: var(--section-grey-color);
 }
 
 .project > p:nth-child(2) {
-  font-size: 1.5rem;
+  font-size: var(--section-sub-heading-size) !important;
 }
 
 .project > p:nth-child(3) {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  font-size: 0.9rem;
+  color: var(--section-grey-color);
+  padding: 5px 0px;
+  border-bottom: 1px solid rgb(87, 86, 86);
 }
 
 .project > p:nth-child(3) > a {
   text-decoration: none;
-  color: white;
-  opacity: 0.6;
 }
 
 a {

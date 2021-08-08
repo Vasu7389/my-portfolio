@@ -1,13 +1,10 @@
 @media only screen and (max-width: 800px) {
   .education-header {
-    font-size: 3rem !important;
+    font-size: var(--section-heading-size-mobile) !important;
     line-height: 3rem !important;
   }
   .education-header > p > span {
     font-size: 4.5rem !important;
-  }
-  .education > p:nth-child(2) {
-    font-size: 1.5rem !important;
   }
 }
 
@@ -18,14 +15,15 @@
 }
 
 .education-header {
-  font-size: 5rem;
+  font-size: var(--section-heading-size);
   line-height: 5rem;
+  letter-spacing: var(--heading-letter-spacing);
 }
 
 .education-header > p > span {
   font-size: 7rem;
   font-family: initial;
-  color: rgb(0 255 243);
+  color: var(--section-color);
 }
 
 .education {
@@ -33,29 +31,31 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 150px;
-  margin-top: 50px;
-  border-bottom: 1px solid rgb(87, 86, 86);
+  height: 110px;
+  margin-top: 30px;
 }
 
 .education > p:nth-child(1) {
-  color: rgb(0 255 243);
+  font-size: 0.9rem;
+  color: var(--section-grey-color);
 }
 
 .education > p:nth-child(2) {
-  font-size: 2rem;
+  font-size: var(--section-sub-heading-size) !important;
 }
 
 .education > p:nth-child(3) {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgb(87, 86, 86);
+  padding: 5px 0px;
+  color: var(--section-grey-color);
 }
 
 .education > p:nth-child(3) > a {
   text-decoration: none;
-  color: white;
-  opacity: 0.6;
 }
 
 a {

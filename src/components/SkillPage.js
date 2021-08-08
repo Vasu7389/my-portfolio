@@ -50,7 +50,7 @@ const SkillPage = () => {
               <a href="/skills">jest</a>
             </li>
             <li>
-              <a href="/skills">development</a>
+              <a href="/skills">javascript</a>
             </li>
             <li>
               <a href="/skills">react-routing</a>
@@ -92,10 +92,7 @@ const SkillPage = () => {
               <a href="/skills">jest</a>
             </li>
             <li>
-              <a href="/skills">development</a>
-            </li>
-            <li>
-              <a href="/skills">react-routing</a>
+              <a href="/skills">javascript</a>
             </li>
             <li>
               <a href="/skills">react</a>

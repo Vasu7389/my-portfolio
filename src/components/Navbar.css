@@ -5,22 +5,31 @@
   .navbar-right-menubar {
     display: block !important;
   }
+  .navbar-container {
+    position: inherit !important;
+    width: 100%;
+  }
 }
 
 .navbar-container {
   color: white;
-  width: 100%;
+  width: 95vw;
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
+  position: fixed;
 }
 
 .navbar-left {
   width: 30%;
 }
 
+.navbar-left > a {
+  justify-content: flex-start;
+}
+
 .navbar-right-options {
-  opacity: 0.6;
+  color: var(--section-grey-color);
   width: 40%;
   display: flex;
   justify-content: space-between;

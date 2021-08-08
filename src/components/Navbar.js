@@ -8,7 +8,11 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="navbar-container">
-      <div className="navbar-left">vasu.awasthi</div>
+      <div className="navbar-left">
+        <Link to="home" spy={true} smooth={true} duration={500}>
+          vasu.awasthi
+        </Link>
+      </div>
       <div className="navbar-right-menubar">
         {isMenuOpen ? (
           <div className="navbar-menu-options">

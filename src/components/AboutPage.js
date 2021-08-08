@@ -9,7 +9,7 @@ const AboutPage = () => {
       </div>
       <div className="about-info">
         <div className="about-left">
-          I love to create something simple and clean using reactjs with html
+          I love to create something simple and clean using javascript with html
           and css.
         </div>
         <div className="about-right">

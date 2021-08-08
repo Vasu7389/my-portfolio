@@ -52,7 +52,7 @@ export default function App() {
       </div>
       {showBackToTopBtn && (
         <button className="btn-back-to-top" onClick={scrollToTop}>
-          Back to Top
+          <span> Back to Top</span>
           <ArrowUpwardIcon />
         </button>
       )}

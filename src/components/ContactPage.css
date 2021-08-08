@@ -1,4 +1,7 @@
 @media only screen and (max-width: 800px) {
+  .contact-header {
+    font-size: var(--section-heading-size-mobile) !important;
+  }
   .contact-info {
     flex-direction: column;
   }
@@ -6,7 +9,7 @@
   .contact-left,
   .contact-right {
     width: 100% !important;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
@@ -17,13 +20,14 @@
 }
 
 .contact-header {
-  font-size: 4.8rem;
+  font-size: var(--section-heading-size);
+  letter-spacing: var(--heading-letter-spacing);
 }
 
 .contact-info {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .contact-left {
@@ -32,7 +36,7 @@
 }
 
 .contact-left > span {
-  opacity: 0.6;
+  color: var(--section-grey-color);
   font-style: italic;
 }
 

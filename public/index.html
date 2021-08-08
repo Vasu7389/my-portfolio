@@ -5,11 +5,8 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon-VA.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="description" content="Software Developer" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-VA.svg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -38,13 +35,15 @@
       window.onload = function () {
         try {
           TagCanvas.Start("myCanvas", "tags", {
-            textColour: "#35ff7c",
+            textColour: "#ffffff",
             outlineColour: "none",
             textFont: '"Poppins", sans-serif',
-            reverse: true,
-            depth: 0.5,
-            maxSpeed: 0.1,
-            opacity: 0.6,
+            maxSpeed: 0.05,
+            opacity: 1,
+            noSelect: true,
+            textHeight: 17,
+            initial: [0.24, 0.26],
+            zoomMax: 1,
           });
         } catch (e) {
           // something went wrong, hide the canvas container

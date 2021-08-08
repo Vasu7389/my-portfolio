@@ -47,7 +47,7 @@ const ContactPage = () => {
         setEmail("");
         setMessage("");
         setSubject("");
-        toast.dark("Message sent successfully!", {
+        toast.success("Message sent successfully!", {
           position: "top-right",
           autoClose: 3000,
           hideProgressBar: false,
