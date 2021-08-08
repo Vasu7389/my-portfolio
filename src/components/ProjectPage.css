@@ -27,8 +27,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 110px;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 
 .project > p:nth-child(1) {
@@ -38,6 +37,7 @@
 
 .project > p:nth-child(2) {
   font-size: var(--section-sub-heading-size) !important;
+  padding: 15px 0px;
 }
 
 .project > p:nth-child(3) {

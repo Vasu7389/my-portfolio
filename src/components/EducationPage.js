@@ -56,17 +56,6 @@ const EducationPage = () => {
             </a>
           </p>
         </div>
-        <div className="education">
-          <p>Senior Secondary Education</p>
-          <p>Kendriya Vidyalaya VFJ School</p>
-          <p>
-            <span>April'11 - March'12</span>
-            <a href="/">
-              <LocationOnIcon />
-              Jabalpur, India
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   );
